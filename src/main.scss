@@ -1,0 +1,49 @@
+//
+// https://anotheruiguy.gitbooks.io/sassintherealworld_book-i/handy-tools/config.html
+@charset 'utf-8';
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,400,700');
+
+// COLORS
+//-----------------------------
+$blue:              #3481CF;
+$white:             #FFFFFF;
+$black:             #000000;
+$gray:              #7F7F7F;
+$purple:            #8A4D76;
+$pink:              #FA7C91;
+$brown:             #757763;
+$beige-light:       #D0D1CD;
+$beige-lighter:     #EFF0EB;
+
+// INITIAL VARIABLES
+//-----------------------------
+$family-sans-serif:     'Nunito', sans-serif;
+$primary:               $blue;
+$grey-dark:             $brown;
+$grey-light:            $beige-light;
+$link:                  $pink;
+$widescreen-enabled:    false;
+$fullhd-enabled:        false;
+
+// DERIVED VARIABLES
+//-----------------------------
+$body-background-color:     $beige-lighter;
+$control-border-width:      2px;
+$input-border-color:        transparent;
+$input-shadow:              none;
+
+// FONT
+//-----------------------------
+$size-extra-large:          3rem;
+$size-extra-extra-large:    4rem;
+$weight-extra-light:        50;     
+$weight-light:              100;
+$weight-regular:            300;
+$weight-bold:               600;
+$weight-extra-bold:         800;
+
+// This should be imported at the very end because of !default use.
+//-----------------------------
+@import '../node_modules/bulma/bulma';
